@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>614815617007-qh14uoajnmspbrurmg264iglfrldotkl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.614815617007-qh14uoajnmspbrurmg264iglfrldotkl</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDtM4M7bLZtR5G3Nf9rDjo1iE61zLlA2vc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>614815617007</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>app.nocturne.timetoguess</string>
+	<key>PROJECT_ID</key>
+	<string>timetoguess-306e3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>timetoguess-306e3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:614815617007:ios:dba4a793d4c1c5de11301a</string>
+	<key>DATABASE_URL</key>
+	<string>https://timetoguess-306e3-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>

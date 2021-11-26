@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "614815617007",
+    "firebase_url": "https://timetoguess-306e3-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "timetoguess-306e3",
+    "storage_bucket": "timetoguess-306e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614815617007:android:819722b71fa3651211301a",
+        "android_client_info": {
+          "package_name": "app.nocturne.timetoguess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614815617007-uvgoodplp8psf845e51kebk60rc1aieq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAE-mp8rYHMXPazcfe4BNpGwT4iLt08FY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614815617007-uvgoodplp8psf845e51kebk60rc1aieq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "614815617007-qh14uoajnmspbrurmg264iglfrldotkl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.nocturne.timetoguess"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

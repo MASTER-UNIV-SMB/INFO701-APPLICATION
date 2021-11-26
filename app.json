@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "TimeToGuess",
+    "slug": "time-to-guess",
+    "version": "2021.11.26.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "app.nocturne.timetoguess",
+      "buildNumber": "2021.11.26.3",
+      "googleServicesFile": "./assets/firebase/GoogleService-Info.plist"
+    },
+    "android": {
+      "package": "app.nocturne.timetoguess",
+      "versionCode": 4,
+      "adaptiveIcon": {
+        "backgroundColor": "#121212"
+      },
+      "googleServicesFile": "./assets/firebase/google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyD7Q6bwlclYUq67T4gwLUhZfU78-Smsnhs",
+          "authDomain": "timetoguess-306e3.firebaseapp.com",
+          "databaseURL": "https://timetoguess-306e3-default-rtdb.europe-west1.firebasedatabase.app",
+          "projectId": "timetoguess-306e3",
+          "storageBucket": "timetoguess-306e3.appspot.com",
+          "messagingSenderId": "614815617007",
+          "appId": "1:614815617007:web:9474d9124fbe051611301a",
+          "measurementId": "G-PY8QLN7180"
+        }
+      }
+    },
+    "description": "",
+    "plugins": [
+      "expo-tracking-transparency"
+    ]
+  }
+}
