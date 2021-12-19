@@ -18,6 +18,17 @@ ___
 
 ___
 
+
+## Screenshots
+
+<div>
+<img src="https://i.imgur.com/NjfBnph.jpg" height="400" width="174"/>
+<img src="https://i.imgur.com/z2mL5mh.jpg" height="400" width="174"/>
+<img src="https://i.imgur.com/c59h6uN.jpg" height="400" width="174"/>
+<img src="https://i.imgur.com/MdzRMo9.jpg" height="400" width="174"/>
+<br><br>
+ </div>
+
 ## Présentation
 
 TimeToGuess est un jeu de société jouable en 3 manches qui nécessite un minimum de 4 personnes pour jouer. À chaque manche, une personne joue contre la montre pour faire deviner à son équipe le plus de mots ou de phrases possible !
