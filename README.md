@@ -1,3 +1,4 @@
+
 <a href="https://github.com/nocturneio"><img src="https://i.imgur.com/cVSsETP.png" align="left" height="174" width="174"/></a>
 
 ## TimeToGuess
@@ -33,8 +34,21 @@ Installer le CLI Expo
 Lancer l'application en mode développement
 `expo install && expo start`
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Installez `Expo Go` sur votre téléphone et connectez vous en Wifi sur le même réseau que votre ordinateur, lancez ensuite l'application dans `Expo Go`
+
+## Architecture
+L'application se base sur React Native, ce qui permet d'avoir une application Cross Platform entre iOS et Android, plus particulièrement sur le Framework Expo qui permet un accès facile aux APIs de iOS et Android.
+
+Le jeu étant multi-joueurs l'application permet une synchronisation des variables de la partie en temps réel avec `Firebase Realtime Database` entre tout les joueurs. Le principe est simple chaque joueur va s'abonner en `PUB/SUB` à un `topic` de base de donnée et va pouvoir émettre des modifications sur la partie et recevoir quand un élément à changer dans la partie et ce pour tout les joueurs. L'avantage de ce système permet une synchronisation de toutes les variables de partie entre tout les joueurs ce qui est nécessaire dans ce concept d'application.
+
+![enter image description here](https://i.imgur.com/hoEyEqF.png)
+
+Pour le debugging du jeu, l'application envoi des événement à `Firebase Analytics Events` dès que le joueur clique sur un élément de l'application pour suivre son utilisation et débuguer précisément si une fonctionnalité provoque une erreur.
+ 
+![enter image description here](https://i.imgur.com/F9sXmlH.png)
+
+## Contributions
+Les demandes de pull sont les bienvenues. Pour les changements majeurs, veuillez d'abord ouvrir une issue pour discuter de ce que vous aimeriez changer.
 
 
 ## License
